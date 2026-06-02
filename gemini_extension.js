@@ -1,10 +1,6 @@
 (function(Scratch) {
   'use strict';
 
-  if (!Scratch.extensions.unsandboxed) {
-    throw new Error('Gemini extension must be run unsandboxed');
-  }
-
   class GeminiExtension {
     constructor() {
       this.apiKeys = {};
